@@ -1,4 +1,4 @@
-# 🧹 Data Cleaning Pipeline (Stocks & Energy Data)
+#  Data Cleaning Pipeline (Stocks & Energy Data)
 
 A lightweight Python project demonstrating **data preprocessing and cleaning techniques** on structured datasets (stocks & energy consumption).
 
@@ -6,19 +6,19 @@ This project focuses on transforming raw, inconsistent data into **clean, valida
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The script processes two datasets:
 
-### 📊 Stock Market Data
+###  Stock Market Data
 - Fields: `Date`, `Stock`, `Open`, `Close`, `Volume`
 
-### ⚡ Energy Consumption Data
+###  Energy Consumption Data
 - Fields: `Date`, `Energy_Type`, `Consumption`, `Price`
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Handle **missing values**
 - Convert **data types (string → datetime, float, int)**
@@ -28,7 +28,7 @@ The script processes two datasets:
 
 ---
 
-## 🛠️ Data Cleaning Steps
+##  Data Cleaning Steps
 
 ### 1. Date Standardization
 - Converts string dates → `datetime` objects
@@ -68,7 +68,7 @@ Only valid rows are retained:
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ```bash
 python main.py
@@ -76,22 +76,19 @@ python main.py
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - Python 3.x  
 - Standard Library (`datetime`)  
 
 ---
 
-## 🚀 Real-World Applications
+##  Real-World Applications
 
-- 📊 Financial data preprocessing  
-- ⚡ Energy analytics pipelines  
-- 🤖 ML feature engineering  
-- 🧾 ETL pipelines (Extract → Transform → Load)  
+-  Financial data preprocessing  
+-  Energy analytics pipelines  
+-  ML feature engineering  
+-  ETL pipelines (Extract → Transform → Load)  
 
 ---
 
-## ⭐ Support
-
-If you found this useful, consider giving it a ⭐ on GitHub!
